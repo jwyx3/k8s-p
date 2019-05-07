@@ -8,9 +8,9 @@ import (
 
 	"github.com/kubernetes-incubator/apiserver-builder-alpha/pkg/builders"
 
-	"k8s-practices/pkg/apis/insect/v1beta1"
-	"k8s-practices/pkg/controller/sharedinformers"
-	listers "k8s-practices/pkg/client/listers_generated/insect/v1beta1"
+	"k8s-p/pkg/apis/insect/v1beta1"
+	"k8s-p/pkg/controller/sharedinformers"
+	listers "k8s-p/pkg/client/listers_generated/insect/v1beta1"
 )
 
 // +controller:group=insect,version=v1beta1,kind=Bee,resource=bees

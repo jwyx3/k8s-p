@@ -5,7 +5,7 @@
 package v1beta1
 
 import (
-	insect "k8s-practices/pkg/apis/insect"
+	insect "k8s-p/pkg/apis/insect"
 	unsafe "unsafe"
 
 	conversion "k8s.io/apimachinery/pkg/conversion"

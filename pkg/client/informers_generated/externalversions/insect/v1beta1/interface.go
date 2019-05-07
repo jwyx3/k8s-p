@@ -3,7 +3,7 @@
 package v1beta1
 
 import (
-	internalinterfaces "k8s-practices/pkg/client/informers_generated/externalversions/internalinterfaces"
+	internalinterfaces "k8s-p/pkg/client/informers_generated/externalversions/internalinterfaces"
 )
 
 // Interface provides access to all the informers in this group version.

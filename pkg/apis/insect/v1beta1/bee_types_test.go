@@ -9,8 +9,8 @@ import (
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	. "k8s-practices/pkg/apis/insect/v1beta1"
-	. "k8s-practices/pkg/client/clientset_generated/clientset/typed/insect/v1beta1"
+	. "k8s-p/pkg/apis/insect/v1beta1"
+	. "k8s-p/pkg/client/clientset_generated/clientset/typed/insect/v1beta1"
 )
 
 var _ = Describe("Bee", func() {

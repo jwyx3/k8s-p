@@ -11,9 +11,9 @@ import (
 	"github.com/kubernetes-incubator/apiserver-builder-alpha/pkg/test"
 	"k8s.io/client-go/rest"
 
-	"k8s-practices/pkg/apis"
-	"k8s-practices/pkg/client/clientset_generated/clientset"
-	"k8s-practices/pkg/openapi"
+	"k8s-p/pkg/apis"
+	"k8s-p/pkg/client/clientset_generated/clientset"
+	"k8s-p/pkg/openapi"
 )
 
 var testenv *test.TestEnvironment

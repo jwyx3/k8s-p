@@ -9,7 +9,7 @@ import (
 
 	controllerlib "github.com/kubernetes-incubator/apiserver-builder-alpha/pkg/controller"
 
-	"k8s-practices/pkg/controller"
+	"k8s-p/pkg/controller"
 )
 
 var kubeconfig = flag.String("kubeconfig", "", "path to kubeconfig")

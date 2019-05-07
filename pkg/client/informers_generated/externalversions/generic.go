@@ -4,7 +4,7 @@ package externalversions
 
 import (
 	"fmt"
-	v1beta1 "k8s-practices/pkg/apis/insect/v1beta1"
+	v1beta1 "k8s-p/pkg/apis/insect/v1beta1"
 
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"

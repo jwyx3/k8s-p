@@ -19,8 +19,8 @@ limitations under the License.
 package sharedinformers
 
 import (
-	"k8s-practices/pkg/client/clientset_generated/clientset"
-	"k8s-practices/pkg/client/informers_generated/externalversions"
+	"k8s-p/pkg/client/clientset_generated/clientset"
+	"k8s-p/pkg/client/informers_generated/externalversions"
 	"time"
 
 	"github.com/kubernetes-incubator/apiserver-builder-alpha/pkg/controller"

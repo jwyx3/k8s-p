@@ -3,9 +3,9 @@
 package externalversions
 
 import (
-	clientset "k8s-practices/pkg/client/clientset_generated/clientset"
-	insect "k8s-practices/pkg/client/informers_generated/externalversions/insect"
-	internalinterfaces "k8s-practices/pkg/client/informers_generated/externalversions/internalinterfaces"
+	clientset "k8s-p/pkg/client/clientset_generated/clientset"
+	insect "k8s-p/pkg/client/informers_generated/externalversions/insect"
+	internalinterfaces "k8s-p/pkg/client/informers_generated/externalversions/internalinterfaces"
 	reflect "reflect"
 	sync "sync"
 	time "time"

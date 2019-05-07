@@ -11,8 +11,8 @@ import (
 	"github.com/kubernetes-incubator/apiserver-builder-alpha/pkg/cmd/server"
 	_ "k8s.io/client-go/plugin/pkg/client/auth" // Enable cloud provider auth
 
-	"k8s-practices/pkg/apis"
-	"k8s-practices/pkg/openapi"
+	"k8s-p/pkg/apis"
+	"k8s-p/pkg/openapi"
 )
 
 func main() {

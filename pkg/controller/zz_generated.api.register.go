@@ -19,8 +19,8 @@ limitations under the License.
 package controller
 
 import (
-	"k8s-practices/pkg/controller/bee"
-	"k8s-practices/pkg/controller/sharedinformers"
+	"k8s-p/pkg/controller/bee"
+	"k8s-p/pkg/controller/sharedinformers"
 
 	"github.com/kubernetes-incubator/apiserver-builder-alpha/pkg/controller"
 	"k8s.io/client-go/rest"

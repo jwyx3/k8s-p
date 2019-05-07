@@ -3,10 +3,10 @@
 package v1beta1
 
 import (
-	insectv1beta1 "k8s-practices/pkg/apis/insect/v1beta1"
-	clientset "k8s-practices/pkg/client/clientset_generated/clientset"
-	internalinterfaces "k8s-practices/pkg/client/informers_generated/externalversions/internalinterfaces"
-	v1beta1 "k8s-practices/pkg/client/listers_generated/insect/v1beta1"
+	insectv1beta1 "k8s-p/pkg/apis/insect/v1beta1"
+	clientset "k8s-p/pkg/client/clientset_generated/clientset"
+	internalinterfaces "k8s-p/pkg/client/informers_generated/externalversions/internalinterfaces"
+	v1beta1 "k8s-p/pkg/client/listers_generated/insect/v1beta1"
 	time "time"
 
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"

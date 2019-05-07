@@ -19,8 +19,8 @@ limitations under the License.
 package apis
 
 import (
-	"k8s-practices/pkg/apis/insect"
-	insectv1beta1 "k8s-practices/pkg/apis/insect/v1beta1"
+	"k8s-p/pkg/apis/insect"
+	insectv1beta1 "k8s-p/pkg/apis/insect/v1beta1"
 
 	"github.com/kubernetes-incubator/apiserver-builder-alpha/pkg/builders"
 )
@@ -35,7 +35,7 @@ func GetAllApiBuilders() []*builders.APIGroupBuilder {
 
 var insectApiGroup = builders.NewApiGroupBuilder(
 	"insect.jw.io",
-	"k8s-practices/pkg/apis/insect").
+	"k8s-p/pkg/apis/insect").
 	WithUnVersionedApi(insect.ApiVersion).
 	WithVersionedApis(
 		insectv1beta1.ApiVersion,

@@ -6,8 +6,8 @@ package bee_test
 import (
 	"time"
 
-	. "k8s-practices/pkg/apis/insect/v1beta1"
-	. "k8s-practices/pkg/client/clientset_generated/clientset/typed/insect/v1beta1"
+	. "k8s-p/pkg/apis/insect/v1beta1"
+	. "k8s-p/pkg/client/clientset_generated/clientset/typed/insect/v1beta1"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 

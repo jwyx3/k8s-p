@@ -16,13 +16,13 @@ import (
 
 func GetOpenAPIDefinitions(ref common.ReferenceCallback) map[string]common.OpenAPIDefinition {
 	return map[string]common.OpenAPIDefinition{
-		"k8s-practices/pkg/apis/insect/v1beta1.Bee":                                    schema_pkg_apis_insect_v1beta1_Bee(ref),
-		"k8s-practices/pkg/apis/insect/v1beta1.BeeList":                                schema_pkg_apis_insect_v1beta1_BeeList(ref),
-		"k8s-practices/pkg/apis/insect/v1beta1.BeeSchemeFns":                           schema_pkg_apis_insect_v1beta1_BeeSchemeFns(ref),
-		"k8s-practices/pkg/apis/insect/v1beta1.BeeSpec":                                schema_pkg_apis_insect_v1beta1_BeeSpec(ref),
-		"k8s-practices/pkg/apis/insect/v1beta1.BeeStatus":                              schema_pkg_apis_insect_v1beta1_BeeStatus(ref),
-		"k8s-practices/pkg/apis/insect/v1beta1.BeeStatusStrategy":                      schema_pkg_apis_insect_v1beta1_BeeStatusStrategy(ref),
-		"k8s-practices/pkg/apis/insect/v1beta1.BeeStrategy":                            schema_pkg_apis_insect_v1beta1_BeeStrategy(ref),
+		"k8s-p/pkg/apis/insect/v1beta1.Bee":                                    schema_pkg_apis_insect_v1beta1_Bee(ref),
+		"k8s-p/pkg/apis/insect/v1beta1.BeeList":                                schema_pkg_apis_insect_v1beta1_BeeList(ref),
+		"k8s-p/pkg/apis/insect/v1beta1.BeeSchemeFns":                           schema_pkg_apis_insect_v1beta1_BeeSchemeFns(ref),
+		"k8s-p/pkg/apis/insect/v1beta1.BeeSpec":                                schema_pkg_apis_insect_v1beta1_BeeSpec(ref),
+		"k8s-p/pkg/apis/insect/v1beta1.BeeStatus":                              schema_pkg_apis_insect_v1beta1_BeeStatus(ref),
+		"k8s-p/pkg/apis/insect/v1beta1.BeeStatusStrategy":                      schema_pkg_apis_insect_v1beta1_BeeStatusStrategy(ref),
+		"k8s-p/pkg/apis/insect/v1beta1.BeeStrategy":                            schema_pkg_apis_insect_v1beta1_BeeStrategy(ref),
 		"k8s.io/api/admissionregistration/v1alpha1.Initializer":                        schema_k8sio_api_admissionregistration_v1alpha1_Initializer(ref),
 		"k8s.io/api/admissionregistration/v1alpha1.InitializerConfiguration":           schema_k8sio_api_admissionregistration_v1alpha1_InitializerConfiguration(ref),
 		"k8s.io/api/admissionregistration/v1alpha1.InitializerConfigurationList":       schema_k8sio_api_admissionregistration_v1alpha1_InitializerConfigurationList(ref),
@@ -654,19 +654,19 @@ func schema_pkg_apis_insect_v1beta1_Bee(ref common.ReferenceCallback) common.Ope
 					},
 					"spec": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("k8s-practices/pkg/apis/insect/v1beta1.BeeSpec"),
+							Ref: ref("k8s-p/pkg/apis/insect/v1beta1.BeeSpec"),
 						},
 					},
 					"status": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("k8s-practices/pkg/apis/insect/v1beta1.BeeStatus"),
+							Ref: ref("k8s-p/pkg/apis/insect/v1beta1.BeeStatus"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"k8s-practices/pkg/apis/insect/v1beta1.BeeSpec", "k8s-practices/pkg/apis/insect/v1beta1.BeeStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"k8s-p/pkg/apis/insect/v1beta1.BeeSpec", "k8s-p/pkg/apis/insect/v1beta1.BeeStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
@@ -700,7 +700,7 @@ func schema_pkg_apis_insect_v1beta1_BeeList(ref common.ReferenceCallback) common
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
-										Ref: ref("k8s-practices/pkg/apis/insect/v1beta1.Bee"),
+										Ref: ref("k8s-p/pkg/apis/insect/v1beta1.Bee"),
 									},
 								},
 							},
@@ -711,7 +711,7 @@ func schema_pkg_apis_insect_v1beta1_BeeList(ref common.ReferenceCallback) common
 			},
 		},
 		Dependencies: []string{
-			"k8s-practices/pkg/apis/insect/v1beta1.Bee", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"k8s-p/pkg/apis/insect/v1beta1.Bee", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 

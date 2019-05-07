@@ -3,8 +3,8 @@
 package insect
 
 import (
-	v1beta1 "k8s-practices/pkg/client/informers_generated/externalversions/insect/v1beta1"
-	internalinterfaces "k8s-practices/pkg/client/informers_generated/externalversions/internalinterfaces"
+	v1beta1 "k8s-p/pkg/client/informers_generated/externalversions/insect/v1beta1"
+	internalinterfaces "k8s-p/pkg/client/informers_generated/externalversions/internalinterfaces"
 )
 
 // Interface provides access to each of this group's versions.

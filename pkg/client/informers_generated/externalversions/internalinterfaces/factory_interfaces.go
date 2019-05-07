@@ -3,7 +3,7 @@
 package internalinterfaces
 
 import (
-	clientset "k8s-practices/pkg/client/clientset_generated/clientset"
+	clientset "k8s-p/pkg/client/clientset_generated/clientset"
 	time "time"
 
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"

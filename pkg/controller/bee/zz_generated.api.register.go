@@ -19,7 +19,7 @@ limitations under the License.
 package bee
 
 import (
-	"k8s-practices/pkg/controller/sharedinformers"
+	"k8s-p/pkg/controller/sharedinformers"
 
 	"github.com/kubernetes-incubator/apiserver-builder-alpha/pkg/controller"
 	"k8s.io/apimachinery/pkg/api/errors"

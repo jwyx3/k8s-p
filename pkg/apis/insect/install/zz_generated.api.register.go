@@ -19,7 +19,7 @@ limitations under the License.
 package install
 
 import (
-	"k8s-practices/pkg/apis"
+	"k8s-p/pkg/apis"
 
 	"k8s.io/apimachinery/pkg/runtime"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"

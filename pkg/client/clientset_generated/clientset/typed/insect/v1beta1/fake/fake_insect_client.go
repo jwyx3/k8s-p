@@ -3,7 +3,7 @@
 package fake
 
 import (
-	v1beta1 "k8s-practices/pkg/client/clientset_generated/clientset/typed/insect/v1beta1"
+	v1beta1 "k8s-p/pkg/client/clientset_generated/clientset/typed/insect/v1beta1"
 
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"

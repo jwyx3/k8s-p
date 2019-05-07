@@ -3,9 +3,9 @@
 package fake
 
 import (
-	clientset "k8s-practices/pkg/client/clientset_generated/clientset"
-	insectv1beta1 "k8s-practices/pkg/client/clientset_generated/clientset/typed/insect/v1beta1"
-	fakeinsectv1beta1 "k8s-practices/pkg/client/clientset_generated/clientset/typed/insect/v1beta1/fake"
+	clientset "k8s-p/pkg/client/clientset_generated/clientset"
+	insectv1beta1 "k8s-p/pkg/client/clientset_generated/clientset/typed/insect/v1beta1"
+	fakeinsectv1beta1 "k8s-p/pkg/client/clientset_generated/clientset/typed/insect/v1beta1/fake"
 
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"

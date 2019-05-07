@@ -19,7 +19,7 @@ limitations under the License.
 package v1beta1
 
 import (
-	"k8s-practices/pkg/apis/insect"
+	"k8s-p/pkg/apis/insect"
 
 	"github.com/kubernetes-incubator/apiserver-builder-alpha/pkg/builders"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

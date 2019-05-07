@@ -11,11 +11,11 @@ import (
 	"k8s.io/client-go/rest"
 	"github.com/kubernetes-incubator/apiserver-builder-alpha/pkg/test"
 
-	"k8s-practices/pkg/apis"
-	"k8s-practices/pkg/client/clientset_generated/clientset"
-	"k8s-practices/pkg/openapi"
-	"k8s-practices/pkg/controller/sharedinformers"
-	"k8s-practices/pkg/controller/bee"
+	"k8s-p/pkg/apis"
+	"k8s-p/pkg/client/clientset_generated/clientset"
+	"k8s-p/pkg/openapi"
+	"k8s-p/pkg/controller/sharedinformers"
+	"k8s-p/pkg/controller/bee"
 )
 
 var testenv *test.TestEnvironment

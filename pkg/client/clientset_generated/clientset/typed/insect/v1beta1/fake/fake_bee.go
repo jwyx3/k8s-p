@@ -3,7 +3,7 @@
 package fake
 
 import (
-	v1beta1 "k8s-practices/pkg/apis/insect/v1beta1"
+	v1beta1 "k8s-p/pkg/apis/insect/v1beta1"
 
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	labels "k8s.io/apimachinery/pkg/labels"

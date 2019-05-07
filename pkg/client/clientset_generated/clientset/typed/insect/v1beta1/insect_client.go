@@ -3,8 +3,8 @@
 package v1beta1
 
 import (
-	v1beta1 "k8s-practices/pkg/apis/insect/v1beta1"
-	"k8s-practices/pkg/client/clientset_generated/clientset/scheme"
+	v1beta1 "k8s-p/pkg/apis/insect/v1beta1"
+	"k8s-p/pkg/client/clientset_generated/clientset/scheme"
 
 	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
 	rest "k8s.io/client-go/rest"

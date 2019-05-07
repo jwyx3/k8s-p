@@ -3,8 +3,8 @@
 package v1beta1
 
 import (
-	v1beta1 "k8s-practices/pkg/apis/insect/v1beta1"
-	scheme "k8s-practices/pkg/client/clientset_generated/clientset/scheme"
+	v1beta1 "k8s-p/pkg/apis/insect/v1beta1"
+	scheme "k8s-p/pkg/client/clientset_generated/clientset/scheme"
 
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"

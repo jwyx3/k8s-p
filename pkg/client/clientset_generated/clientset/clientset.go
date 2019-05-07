@@ -3,7 +3,7 @@
 package clientset
 
 import (
-	insectv1beta1 "k8s-practices/pkg/client/clientset_generated/clientset/typed/insect/v1beta1"
+	insectv1beta1 "k8s-p/pkg/client/clientset_generated/clientset/typed/insect/v1beta1"
 
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
