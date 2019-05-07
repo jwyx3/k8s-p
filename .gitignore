@@ -1,0 +1,7 @@
+vendor
+docs/build
+bin
+default.etcd
+config/certificates
+apiserver.local.config
+violations.report
